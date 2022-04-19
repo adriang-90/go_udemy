@@ -15,6 +15,7 @@
 # Output of the go coverage tool, specifically when used with LiteIDE
 *.out
 notes.odt
+.~lock.notes.odt#
 
 # Dependency directories (remove the comment below to include it)
 # vendor/
@@ -22,5 +23,6 @@ notes.odt
 ### Go Patch ###
 /vendor/
 /Godeps/
+*.pdf
 
 # End of https://www.toptal.com/developers/gitignore/api/go
